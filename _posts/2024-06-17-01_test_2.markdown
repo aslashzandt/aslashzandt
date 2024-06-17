@@ -3,7 +3,7 @@ layout: post
 title:  "2. Leveraging Technology"
 # date:   2024-06-17 12:41:32 +0200
 categories: Revenue
-toc: true
+toc: false
 ---
 
 #### **Digital Exhibitions and Virtual Tours**

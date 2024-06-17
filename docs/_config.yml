@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: SKKG Handbook
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,13 +26,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: SKKG
+github_username:  SKKG
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-toc
+
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: true
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: toc-list
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

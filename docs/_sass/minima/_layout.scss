@@ -1,4 +1,13 @@
 /**
+ * TOC
+ */
+
+ .toc{
+  background-color: green;
+ }
+
+
+/**
  * Site header
  */
 .site-header {
@@ -226,7 +235,17 @@
   }
 }
 
+.toc-list,
+.post-toc{
+  position: fixed;
+  top: 5rem;
+  right: 0;
+  padding-left: 2rem;
+  width: calc((100vw - 800px - 30px * 2) / 2)
+}
+
 .post-content {
+  position: relative;
   margin-bottom: $spacing-unit;
 
   h2 {
@@ -253,3 +272,5 @@
     }
   }
 }
+
+
